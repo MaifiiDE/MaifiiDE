@@ -62,6 +62,12 @@ section{
   padding-bottom:5px;
 }
 
+.copyright{
+    background:#232323;
+    width:40%;
+    margin:0 auto;
+}
+
 .greybackground{
   background:#232323;
 }
@@ -91,6 +97,12 @@ footer{
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
+  padding-top:1.3em;
+  font-family: 'Oswald', sans-serif;
+  text-align:center;
+  font-size:1em;
+  text-shadow:2px 2px 3px #333;
+  color:#fff;
 }
 
 ul{

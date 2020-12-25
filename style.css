@@ -1,14 +1,22 @@
 body{
-    font-family: 'Mountains of Christmas', cursive;
+    font-family: 'Mountains of Christmas';
     background-color: #8E9EC8;
   }
   .container{
     position: relative;
     display: block;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 0%;
     width: 700px;
     height: 600px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:
+      url("https://i.imgur.com/NC4aWSK.png"),
+      url("https://i.imgur.com/0KcUrjk.png");
+    animation: snowFall 15s linear infinite;
+    z-index: 5;
   }
   
   h1 {
@@ -21,23 +29,6 @@ body{
     text-align: center;
   }
   
-  #tree {
-    width: 50%;
-    margin:auto;
-    text-align: center;
-    font-weight:800;
-    font-size: 25px;
-    animation: colors 1s infinite alternate;
-  }
-  
-  #trunk {
-    width: 50%;
-    margin:auto;
-    text-align: center;
-    color: #899795;
-    font-weight: 900;
-    font-size: 35px;
-  }
   
   @keyframes colors {
       0% {
@@ -56,8 +47,8 @@ body{
     height: 100%;
     width: 100%;
     background:
-      url("https://bit.ly/2T5aYUO"),
-      url("https://bit.ly/2EMU0H5");
+    url("https://i.imgur.com/NC4aWSK.png"),
+    url("https://i.imgur.com/0KcUrjk.png");
     animation: snowFall 15s linear infinite;
     z-index: 5;
   }
